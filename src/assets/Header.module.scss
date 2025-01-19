@@ -1,0 +1,56 @@
+.header {
+  padding: 0 30px;
+  height: 71px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 20px #ECEFF2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Mazzard M", sans-serif;
+}
+
+.logo {
+  margin-right: 50px;
+}
+
+.navLinkList {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.link {
+  height: 100%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.88px;
+  text-decoration: none;
+  color: black;
+}
+
+.activeLink {
+  color: #00BDA0;
+}
+
+.button{
+  background-color: #00BDA0;
+  width: 150px;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.button svg{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.button p {
+  font-size: 13px;
+  color: white;
+
+}
