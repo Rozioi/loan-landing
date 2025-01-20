@@ -1,0 +1,69 @@
+@mixin textBlockH2{
+  line-height: 85px;
+  font-size: 75px;
+  color: #3B4244;
+  margin-bottom: 1rem;
+}
+.interactiveBlock{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Mazzard M", sans-serif;
+}
+.visualBlock{
+  display: flex;
+  height: 100vh;
+  margin-right: 50px;
+}
+.handVector{
+  flex: 1;
+  background-image: url("../../public/hand.png");
+  transform: rotate(-25deg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 740px;
+  min-height: 840px;
+  margin-left: -150px;
+}
+.textBlock {
+  margin-left: -35px;
+  text-align: left;
+  flex: 1;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.textBlock h2 {
+  @include textBlockH2;
+  & span{
+    @include textBlockH2;
+  }
+  & span::after{
+    content: ' 0!';
+    line-height: 85px;
+    font-size: 75px;
+    margin-bottom: 1rem;
+    color: #00BDA0;
+  }
+}
+
+.textBlock p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.textBlock span {
+  display: block;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  color: gray;
+}
+

@@ -1,0 +1,90 @@
+.calcBlock {
+  width: 35%;
+  height: 65%;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.choosloan {
+  display: flex;
+  justify-content: center;
+  & div:first-child{
+    border-radius: 50px 0 0 50px;
+  }
+  & div:last-child{
+    border-radius: 0 50px 50px 0;
+  }
+}
+
+.loanOption {
+  background-color: #F5F7FA;
+  padding: 10px 20px;
+  color: #607D8B;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.loanOption.selected {
+  background-color: #00BDA0;
+  color: white;
+}
+
+.loanOption:hover {
+  background-color: #ececec;
+}
+
+.custInput {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  background: #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: background 0.2s ease;
+}
+
+input[type="range"]:focus {
+  background: #00BDA0;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: #00BDA0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.button button {
+  padding: 12px 20px;
+  background-color: #00BDA0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button button:hover {
+  background-color: #009f87;
+}
