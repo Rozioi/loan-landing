@@ -1,9 +1,11 @@
 .header {
-  padding: 0 30px;
+  padding: 0 90px;
   height: 71px;
   background-color: #ffffff;
   box-shadow: 0 2px 20px #ECEFF2;
   display: flex;
+  position: relative;
+  z-index: 10;
   justify-content: space-between;
   align-items: center;
   font-family: "Mazzard M", sans-serif;
@@ -20,6 +22,7 @@
 }
 
 .link {
+  user-select: none;
   height: 100%;
   font-weight: 500;
   font-size: 18px;

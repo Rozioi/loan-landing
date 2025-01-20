@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a781da62-f989-44f2-9b8f-53f3e8ead697" name="Changes" comment="refactor: created header and styled it" />
+    <list default="true" id="a781da62-f989-44f2-9b8f-53f3e8ead697" name="Changes" comment="refactor: created header and styled it">
+      <change afterPath="$PROJECT_DIR$/src/assets/InteractiveContent.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/LoanBlock.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/InteractiveContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LoanBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Header.module.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
         <option value="SCSS File" />
       </list>
@@ -21,12 +30,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Rozioi/loan-landing.git",
-    "accountId": "53483bf9-9a62-4d68-8b78-c3973c24747e"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Rozioi&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Rozioi/loan-landing.git&quot;,
+    &quot;accountId&quot;: &quot;53483bf9-9a62-4d68-8b78-c3973c24747e&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -85,7 +100,8 @@
       <updated>1736881638748</updated>
       <workItem from="1736881639787" duration="611000" />
       <workItem from="1737305749984" duration="5227000" />
-      <workItem from="1737311610007" duration="1558000" />
+      <workItem from="1737311610007" duration="1792000" />
+      <workItem from="1737398086448" duration="3942000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: created header and styled it">
       <option name="closed" value="true" />
@@ -95,7 +111,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737312930906</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="refactor: created header and styled it">
+      <option name="closed" value="true" />
+      <created>1737313237730</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737313237730</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
