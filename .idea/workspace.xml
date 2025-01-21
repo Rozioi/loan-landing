@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a781da62-f989-44f2-9b8f-53f3e8ead697" name="Changes" comment="feat: create InteractiveContent component and its internal LoanBlock component&#10;style: add styles for InteractiveContent and LoanBlock components">
-      <change afterPath="$PROJECT_DIR$/src/assets/CustomSliderInput.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CustomSliderInput.tsx" afterDir="false" />
+    <list default="true" id="a781da62-f989-44f2-9b8f-53f3e8ead697" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/OurAdvant.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CustomSliderDayInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/OurAdvant.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/CustomSliderInput.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/CustomSliderInput.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/InteractiveContent.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/InteractiveContent.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/LoanBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/LoanBlock.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InteractiveContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InteractiveContent.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LoanBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoanBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +26,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="SCSS File" />
         <option value="TypeScript JSX File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -101,7 +106,8 @@
       <workItem from="1737305749984" duration="5227000" />
       <workItem from="1737311610007" duration="1792000" />
       <workItem from="1737398086448" duration="4933000" />
-      <workItem from="1737430463127" duration="3864000" />
+      <workItem from="1737430463127" duration="4610000" />
+      <workItem from="1737479657845" duration="6753000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: created header and styled it">
       <option name="closed" value="true" />
@@ -135,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737402436010</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactor: Added custom input component with styles and integrated it into loanBlock">
+      <option name="closed" value="true" />
+      <created>1737434553460</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737434553460</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,8 +158,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor: created header and styled it" />
     <MESSAGE value="feat: create InteractiveContent component and its internal LoanBlock component" />
-    <MESSAGE value="feat: create InteractiveContent component and its internal LoanBlock component&#10;style: add styles for InteractiveContent and LoanBlock components" />
     <MESSAGE value="style: add styles for InteractiveContent and LoanBlock components" />
-    <option name="LAST_COMMIT_MESSAGE" value="style: add styles for InteractiveContent and LoanBlock components" />
+    <MESSAGE value="feat: create InteractiveContent component and its internal LoanBlock component&#10;style: add styles for InteractiveContent and LoanBlock components" />
+    <MESSAGE value="refactor: Added custom input component with styles and integrated it into loanBlock" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: Added custom input component with styles and integrated it into loanBlock" />
   </component>
 </project>

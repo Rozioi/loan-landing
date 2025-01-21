@@ -9,7 +9,7 @@ const InteractiveContent: React.FC = () => {
                 <div className={styles.handVector}></div>
                 <div className={styles.textBlock}>
                     <h2>
-                        ZERO -
+                        ZERO —
                         <span>значит </span>
                     </h2>
                     <p>
