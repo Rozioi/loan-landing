@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a781da62-f989-44f2-9b8f-53f3e8ead697" name="Changes" comment="refactor: created header and styled it">
-      <change afterPath="$PROJECT_DIR$/src/assets/InteractiveContent.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/LoanBlock.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/InteractiveContent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LoanBlock.tsx" afterDir="false" />
+    <list default="true" id="a781da62-f989-44f2-9b8f-53f3e8ead697" name="Changes" comment="feat: create InteractiveContent component and its internal LoanBlock component&#10;style: add styles for InteractiveContent and LoanBlock components">
+      <change afterPath="$PROJECT_DIR$/src/assets/CustomSliderInput.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CustomSliderInput.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/InteractiveContent.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/InteractiveContent.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/LoanBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/LoanBlock.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoanBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoanBlock.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
         <option value="SCSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -101,7 +100,8 @@
       <workItem from="1736881639787" duration="611000" />
       <workItem from="1737305749984" duration="5227000" />
       <workItem from="1737311610007" duration="1792000" />
-      <workItem from="1737398086448" duration="3942000" />
+      <workItem from="1737398086448" duration="4933000" />
+      <workItem from="1737430463127" duration="3864000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: created header and styled it">
       <option name="closed" value="true" />
@@ -119,7 +119,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737313237730</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: create InteractiveContent component and its internal LoanBlock component">
+      <option name="closed" value="true" />
+      <created>1737402412706</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737402412706</updated>
+    </task>
+    <task id="LOCAL-00004" summary="style: add styles for InteractiveContent and LoanBlock components">
+      <option name="closed" value="true" />
+      <created>1737402436010</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737402436010</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +143,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactor: created header and styled it" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: created header and styled it" />
+    <MESSAGE value="feat: create InteractiveContent component and its internal LoanBlock component" />
+    <MESSAGE value="feat: create InteractiveContent component and its internal LoanBlock component&#10;style: add styles for InteractiveContent and LoanBlock components" />
+    <MESSAGE value="style: add styles for InteractiveContent and LoanBlock components" />
+    <option name="LAST_COMMIT_MESSAGE" value="style: add styles for InteractiveContent and LoanBlock components" />
   </component>
 </project>

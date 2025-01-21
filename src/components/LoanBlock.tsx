@@ -1,11 +1,21 @@
 import React, { useState } from 'react';
 import styles from '../assets/LoanBlock.module.scss';
+import CustomSliderInput from "./CustomSliderInput";
 
 const LoanCalculator: React.FC = () => {
     const [selectedLoan, setSelectedLoan] = useState<string>('first'); // Устанавливаем первый заём по умолчанию
 
     const handleLoanSelect = (loanType:string): void => {
         setSelectedLoan(loanType);
+    };
+
+    const [money, setMoney] = useState<number>(1000);
+
+    const handleInputChange = (newValue: number) => {
+        setMoney(newValue);
+    };
+    const handleSliderChange = (newValue: number) => {
+        setMoney(newValue);
     };
 
     return (
@@ -24,19 +34,18 @@ const LoanCalculator: React.FC = () => {
                     Повторный заём
                 </div>
             </div>
-            <div className={styles.custInput}>
-                <label>Введите сумму</label>
-                <input type="range" min="1000" max="50000" />
-            </div>
-            <div className={styles.custInput}>
-                <label>Выберите срок</label>
-                <input type="range" min="1" max="24" />
-            </div>
+
+            <CustomSliderInput
+                label="Cумма"
+                value={money}
+                onInputChange={handleInputChange}
+                onSliderChange={handleSliderChange}
+            />
             <div className={styles.result}>
-                {/* Здесь будет отображаться результат */}
+
             </div>
             <div className={styles.button}>
-                <button>Оформить</button>
+                <button>Подать заявку</button>
             </div>
         </div>
     );
