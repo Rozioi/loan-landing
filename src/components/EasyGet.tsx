@@ -20,11 +20,11 @@ const EasyGet: React.FC = () => {
                         <p>Позвоните или оставьте заявку</p>
                         <span>Оставить заявку можно
                             <a href={'/bot/'}
-                                style={{
-                                    textDecoration: 'none',
-                                    borderBottom: '2px solid #007bff',
-                                    color: '#007bff',
-                                }}
+                               style={{
+                                   textDecoration: 'none',
+                                   borderBottom: '2px solid #007bff',
+                                   color: '#007bff',
+                               }}
                             > заполнив форму </a>
                             на сайте</span>
 
@@ -39,7 +39,9 @@ const EasyGet: React.FC = () => {
                     </div>
                 </div>
             </div>
+            <div className={styles.handVector}></div>
         </div>
+
     );
 };
 

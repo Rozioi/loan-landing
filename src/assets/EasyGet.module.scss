@@ -3,12 +3,12 @@
   font-family: "Mazzard M", sans-serif;
   padding: 40px;
 }
-
 .mainBlock {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 40px;
+  position: relative;
 }
 
 .illustration {
@@ -55,15 +55,18 @@
 .listItem {
   margin: 50px 0;
   text-align: left;
-  &:first-child{
-    margin-top: 0;
-  }
-  &:last-child{
-    margin-bottom: 0;
-  }
-  & span{
-    color: #607D8B;
-  }
+}
+
+.listItem:first-child {
+  margin-top: 0;
+}
+
+.listItem:last-child {
+  margin-bottom: 0;
+}
+
+.listItem span {
+  color: #607D8B;
 }
 
 .listItem p {
@@ -73,3 +76,15 @@
   margin-bottom: 10px;
 }
 
+.handVector {
+  flex-shrink: 0;
+  margin-left: auto;
+  background-image: url("../../public/hand1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 530px;
+  height: 320px;
+  margin-top: -350px;
+  margin-right: -70px;
+}
