@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import {BrowserRouter} from "react-router-dom";
 import InteractiveContent from "./components/InteractiveContent";
 import OurAdvant from "./components/OurAdvant";
+import EasyGet from "./components/EasyGet";
 
 const App: React.FC = () => {
     return (
@@ -11,6 +12,7 @@ const App: React.FC = () => {
                 <Header/>
                 <InteractiveContent />
                  <OurAdvant />
+                <EasyGet />
             </div>
         </BrowserRouter>
     );
