@@ -4,6 +4,7 @@ import {BrowserRouter} from "react-router-dom";
 import InteractiveContent from "./components/InteractiveContent";
 import OurAdvant from "./components/OurAdvant";
 import EasyGet from "./components/EasyGet";
+import RepayLoan from "./components/RepayLoan";
 
 const App: React.FC = () => {
     return (
@@ -13,6 +14,7 @@ const App: React.FC = () => {
                 <InteractiveContent />
                  <OurAdvant />
                 <EasyGet />
+                <RepayLoan />
             </div>
         </BrowserRouter>
     );
