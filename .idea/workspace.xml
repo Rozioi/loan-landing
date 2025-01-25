@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a781da62-f989-44f2-9b8f-53f3e8ead697" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/RepayLoan.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/RepayLoan.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/RepayLoan.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/RepayLoan.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RepayLoan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RepayLoan.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +103,8 @@
       <workItem from="1737567332016" duration="1718000" />
       <workItem from="1737602328868" duration="4830000" />
       <workItem from="1737654500458" duration="3856000" />
-      <workItem from="1737690762182" duration="3435000" />
+      <workItem from="1737690762182" duration="3905000" />
+      <workItem from="1737830433005" duration="827000" />
     </task>
     <task id="LOCAL-00001" summary="refactor: created header and styled it">
       <option name="closed" value="true" />
@@ -170,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737658835748</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: add new RepayLoan component with basic structure; layout logic and styles are not fully implemented yet">
+      <option name="closed" value="true" />
+      <created>1737694431129</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1737694431129</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +193,7 @@
     <MESSAGE value="refactor: Completed the loanBlock and styled it, then moved on to the next section of the site (OurAdvant.tsx), wrote the styles but still need to fix them." />
     <MESSAGE value="feat: added new component (eastGet.tsx) and styled it" />
     <MESSAGE value="feat: updated styles for EasyGet.tsx, added a hand pointing to the second step of the process" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: updated styles for EasyGet.tsx, added a hand pointing to the second step of the process" />
+    <MESSAGE value="feat: add new RepayLoan component with basic structure; layout logic and styles are not fully implemented yet" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add new RepayLoan component with basic structure; layout logic and styles are not fully implemented yet" />
   </component>
 </project>
